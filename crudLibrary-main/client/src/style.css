@@ -1,0 +1,135 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    gap: 10px;
+}
+
+.addBtn{
+    background: linear-gradient(to bottom right, #29ee99, #3fdbec);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;  
+}
+
+.addBtn:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.addBtn:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.title{
+    margin-bottom: 25px;
+padding-top: 20px;
+}
+
+.book{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border:1px solid black;
+    margin: 2px; 
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 17px;;
+    padding-right: 17px;;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(181, 230, 214);
+}
+
+.delete{
+    background: linear-gradient(to bottom right, #ee9529, #ec483f);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;  
+}
+
+.update{
+    background: linear-gradient(to bottom right, #51f33c, #f0fe6f);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap; 
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(244, 142, 74);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
